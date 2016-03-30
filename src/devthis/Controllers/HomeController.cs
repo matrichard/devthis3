@@ -10,6 +10,7 @@ namespace devthis.Controllers
     {
         public IActionResult Index()
         {
+            throw new InvalidOperationException("You messed up");
             return View();
         }
 
